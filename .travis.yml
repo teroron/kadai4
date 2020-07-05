@@ -1,0 +1,5 @@
+langage: bash
+script:
+        - echo kadai3
+        - echo Trevis CI test .trevis.yml
+        - ./gcdTest.sh
