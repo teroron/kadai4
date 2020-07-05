@@ -1,14 +1,6 @@
 #!/bin/bash
 
 
-./gcd.sh 465 360
-if [ $var1 -ne 15 ];then
-    echo -e "エラー"
-else
-    echo -e "正常終了"
-fi
-echo -e "\n"
-
 
 
 #case 1 正常系 数字入力
