@@ -1,9 +1,19 @@
 #!/bin/bash
 
 
+./gcd.sh 465 360
+if [ $var1 -ne 15 ];then
+    echo -e "エラー"
+else
+    echo -e "正常終了"
+fi
+echo -e "\n"
+
+
+
 #case 1 正常系 数字入力
 #入力：引数1=8、引数2=12
-#想定出力:4
+#期待値:4
 ./gcd.sh 8 12
 if [ $? -ne 0 ];then
     echo -e "CASE1処理エラー、入力数字をチェックしてください。"  
